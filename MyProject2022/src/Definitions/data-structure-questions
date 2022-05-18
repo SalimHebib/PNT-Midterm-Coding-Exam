@@ -1,0 +1,100 @@
+
+why do we need data structure?
+    **** We need to store multiple data type.
+
+What are the various operations that can be performed on different Data Structures?
+    **** Add, retrieve, remove, create, search, insert.
+
+List out the areas in which data structures are applied extensively?
+    **** 1.Compiler Design· 2.Operating System· 3.Database Management System· 4.Statistical analysis package,
+         5.Numerical Analysis· 6.Graphics· 7.Artificial Intelligence...
+
+what is an Array?
+    **** Array is an object that holds multiple values.
+
+what is the difference between the Array and ArrayList?
+    **** An array is a fixed-length data structure ( Take Length).
+         ArrayList is a variable-length data structure ( Take Size ).
+
+what is LinkedList?
+    **** its a list that used nodes in order to store data.
+
+How is an Array different from Linked List?
+    **** Array elements store in a contiguous memory location.
+         Linked list elements can be stored anywhere in the memory or randomly stored
+
+what is queue?
+    **** Is a collection that uses FIFO to store and retrieve data.
+
+what is stack?
+    **** Is a collection that uses FILO to store and retrieve data
+
+what is FIFO and LIFO?
+    **** First in first out.
+         Last in first out.
+
+what is the order of complexity?
+    **** Big O notation
+
+what is the best case to search an element from an array?
+    **** The best case complexity is O(1) when element is first or last element in the array.
+
+what is the worst case to search an element from an array?
+    **** Using an array list
+
+what is tree in data structure?
+    **** A non-linear data structure where each element is linked to two child element
+
+what is graph in data structure?
+    **** A non-linear data structure where one element can be linked to multiple elements
+
+what is the difference between the HashTable and HashMap?
+    **** HashMap allows one null key and multiple null values whereas
+         Hashtable doesn't allow any null key or value.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+    **** RDBMS = Array (i.e. Array of structures)
+         Network data model = Graph
+         Hierarchical data model = Trees.
+
+How HashMap works in java?
+    **** Stores elements in form of key-value pair.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+    **** When we access an array, or a Collection, that is backed by an array with an invalid index.
+
+What are the different ways of copying an array into another array?
+
+    **** You can use a for loop and copy elements of one to another one by one.
+         Use the clone method to clone an array.
+         Use arraycopy() method of System class.
+         Use copyOf() or copyOfRange() methods of Arrays class.
+
+What is difference between an array and a linked list?
+    **** An array is a collection of elements of a similar data type.
+         A linked list is the collection of nodes that are randomly stored
+
+What is DFS and BFS?
+    **** BFS stands for Breadth First Search. DFS stands for Depth First Search.
+
+What is Recursion?
+    **** Recursion is the technique of making a function (method) call itself.
+
+What are linear and non linear data Structures?
+    **** Linear: array list, linked list, set, map. Queue, stack.
+         Non-linear: tree and graph
+
+What is Big-(O)-notation?
+    **** Big O Notation is a way to measure an algorithm's efficiency.
+         It measures the time it takes to run your function as the input grows
+
+Outlined different kind of sorting algorithm with time complexity?
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+
+
+

@@ -1,0 +1,223 @@
+
+What is programing language?
+A.it is an intermediate language between a machine and human.
+
+What jdk contains or composed of and define each components?
+  JRE: Java Runtime Environment is a set of components to create and run a Java application.
+  JDK: Java Development Kit is used to develop Java applications.
+  JVM: Java Virtual Machine acts as a run-time engine to run Java applications.
+  JIT: Just In Time ,Compiler
+
+What is IDE?
+  A.integrated development environment /  is java cod editor
+
+What are the IDEs available in the market to support java?
+  A.Intellij / Eclipse / NetBeans / BlueJ / DrJava....
+
+Explain the entire java life cycle.
+     There are three main stages: Editing the program.
+     Compiling the source code. Executing the byte code.
+
+what is class? ****     is a blueprint
+
+What is object? ****     is instance of class
+
+What is the entry point of an application? ****     Main Method
+
+Why main is static? ****    so that JVM can invoke it without instantiating the class
+
+Which class is the superclass of all classes? ****   Object class
+
+
+What is difference between path and classpath variables?
+    ****     path : it is location of bin files(binary executable files) example- java.exe,javac.exe
+    ****     classPath: it is location of your .class file(which is created after compile your java source file)
+
+What is the difference between an Interface and Abstract class?
+    ****    An abstract class allows you to create functionality that subclasses can implement or override.
+    ****    An interface only allows you to define functionality, not implement it.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+    ****    You cannot create an object of abstract class or interface since they are incomplete class
+    What you can do is to implement a subclass of abstract class which, of course, must not be abstract
+    For interface, you must create a class which implement the interface and implement bodies of interface methods.
+
+what is Access Specifier? ****   Key words that defines visibility of our elements in an application
+
+What is OOP ? ****   OBJECT ORIENTED PROGRAMMING
+
+Define each feature of java OOP.
+    Inheritance: is a concept that acquires the properties from one class to other classes
+    Encapsulation: is data hiding
+    Polymorphism: Polymorphism means "many forms",
+                  and it occurs when we have many classes that are related to each other by inheritance
+    Abstraction: is implementation hiding
+
+What is Java Package and which package is imported by default?
+    is: A folder that holds all java classes
+    Java.Lang ( default )
+
+What is API? ****    is an application programming interface
+    Name list of API that you have used so far.****** Java / (Selenium)
+
+Does java support multiple inheritance, ****** No
+explain why or why not?//////???????????
+
+What is method overloading and when it happens?
+    ****    use the same method name with different of parameters
+            it happens during the compile time
+
+Explain exceptions in java and how to handle it.
+    **** An exception is an event, which occurs during the execution of a program,
+         we handle it on two ways. using tray and catch block ,
+         and or throws keyword in the methode signature.
+
+What is static keyword in java? How it has been used in variables and methods ?
+    ****    Static key word is to makes ur attribute a part of a class (belong to a class)
+            is used to share the same variable or method of a given class.
+
+What is final and how it has been used variables and methods?
+    ****    is a non-access specifier (modifier) set to prevent the usage of the variable again
+
+What is final, finally and finalize?
+    **** Final (non-access specifier (modifier))
+         finally key word is block of code associated to try and catch
+         Finalize is the method of Object class  called just before an object is garbage collected.
+
+What is a constructor ?
+    **** A block of code similar to method used to initialize the object.
+            Implicitly call the code during the use of the object.
+
+Can we have multiple constructors in a class?
+    **** Yes, we can have multiple constructor in a class.
+
+If we don't have a constructor declared, what is called during the object creation?
+    **** The default constructor is called automatically.
+
+What is "this" keyword in java ?
+    **** this key word gave reference to global variable.
+
+What is "super" keyword in java? How many possible way can you use?
+    **** Super keyword gave reference to super class (parent class)
+         We use it to access the superclass from the subclass class.
+
+What is JVM stand for ?
+    ****  Is the interpreter or the core of Java programming language
+          acts as a run-time engine to run Java applications.
+Is JVM platform independent?
+    **** JVM is platform dependent.
+
+What version of java are you using?
+    **** java version "1.8.0_331".
+
+What is JAR stand for ?
+    **** JAR stands for Java Archive.
+
+What is the difference between JDK and JVM?
+    **** JVM is code runner, JDK is compiler
+
+What is the difference between JVM and JRE?
+    ****
+
+What is compile time and run time?
+    **** compile time is conversion code,run time is execution
+
+What is heap?
+    ****  A heap is a specialized tree-based data structure that satisfied the heap property.
+
+How java manage it's memory?
+    **** Using the garbage collections.
+
+What is the difference between String, StringBuffer and StringBuilder?
+    **** String is immutable whereas StringBuffer and StringBuilder are mutable classes.
+
+What is Singleton class?
+    **** is object hiding.
+
+What is Serialization and Deserialization?
+    **** serialization - Turn data into a stream of bytes
+         deserialization - Turn a stream of bytes back into a copy of the original object.
+
+when to use transient variable in java?
+    **** Transient in Java is used to indicate that a field should not be part of the serialization process
+
+Difference between while and do..while loop?
+    **** While loop check the condition first and then execute the code.
+         Do while loop execute the code first and check the condition.
+
+What is Enum?
+    **** is a symbolic name for a set of values.
+
+What is Iterator?
+    **** An Iterator is an object that can be used to loop through collections.
+
+Which one will take more memory, an int or Integer?
+    **** Integer will take more memory.
+
+Why is String Immutable in IteratorJava?
+    ****
+
+What is constructor chaining in Java?
+    **** Constructor Chaining is the process of calling one constructor of a class from another
+    constructor of the same class or another class using the current object of the class.
+
+The difference between Serial and Parallel Garbage Collector?
+    **** serial garbage collector uses a single thread for garbage collection process
+    while the parallel garbage collector uses multiple threads for the garbage collection.
+
+What is JIT stands for?
+    **** The Just-In-Time (JIT) compiler.
+
+Explain Java Heap space and Garbage collection?
+    **** The Java heap is the area of memory used to store objects instantiated by applications running on the JVM.
+         -Garbage collection in Java is the process by which Java programs perform automatic memory management.
+
+Can you guarantee the garbage collection process?
+    **** No
+
+What is the difference between stack and heap in Java?
+    ****  The stack is a linear data structure that is used to store the collection of objects.
+         - The Java heap is the area of memory used to store objects instantiated by applications running on the JVM.
+
+
+What is reflection in java and why is it useful?
+    **** Reflection is the ability of a program to examine and modify the structure and behavior of an object at runtime.
+
+
+what is multithreading in java?
+    **** is a Java feature that allows concurrent execution of two or more parts of a program
+         for maximum utilization of CPU
+
+What is the use of synchronization in Java?
+    **** Synchronized method is used to lock an object for any shared resource
+
+What is Framework?
+    **** Is a structure that you can build software on.
+
+What are the testing Framework available in java?
+    **** 1.Selenium. 2 JBehave· 3 Serenity· 4 JUnit. 5 TestNG· 6 Mockito ·
+         7 HTTPUnit· 8 Gauge. 9 Geb. 10 Selenide. 11 JWebUnit. 12 Spock...
+
+Difference between jUnit and testNG?
+    ****  JUnit is an open-source framework used to trigger and write tests.
+          TestNG is a Java-based framework that is an upgraded option for running tests.
+
+What are the dependencies for this project?
+    **** JUnit / MongoDB / MySql / hamcrest-core.
+
+what is dependency injection in java?
+    **** Dependency injection (DI) is the concept in which objects get other required objects from outside.
+
+What is static binding and dynamic binding?
+    **** Java static binding refers to the execution of a program where type of object is determined/known at compile time
+         - dynamic binding the type of object is determined at runtime.
+
+
+
+
+
+
+
+
+
+
