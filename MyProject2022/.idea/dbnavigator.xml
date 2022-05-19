@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -28,15 +28,18 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="5a6fe9e4-915d-4049-bd45-78ee85fdce87">
-      <console name="MyDataBase" type="STANDARD" schema="mysql" session="Main" />
+    <connection id="f7d4c8ad-7750-485a-a439-297dd6b2f727">
+      <console name="mydatabase" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="5a6fe9e4-915d-4049-bd45-78ee85fdce87" />
+    <connection id="f7d4c8ad-7750-485a-a439-297dd6b2f727" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="f7d4c8ad-7750-485a-a439-297dd6b2f727" dataset="my_database.selection_sort" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -67,9 +70,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="5a6fe9e4-915d-4049-bd45-78ee85fdce87" active="true" signed="true">
+      <connection id="f7d4c8ad-7750-485a-a439-297dd6b2f727" active="true" signed="true">
         <database>
-          <name value="MyDataBase" />
+          <name value="mydatabase" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
@@ -83,7 +86,7 @@
           <database value="mysql" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="QW5pb2xlbTg=" />
+          <deprecated-pwd value="U2FsYW1vMjAyMg==" />
         </database>
         <properties>
           <auto-commit value="false" />

@@ -1,4 +1,5 @@
 package databases;
+
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
@@ -72,5 +73,4 @@ public class ConnectToMongoDB {
         //System.out.println(person.getStName()+ " "+ person.getStID());
         //}
     }
-
 }

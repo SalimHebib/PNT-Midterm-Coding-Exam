@@ -1,42 +1,43 @@
 package databases;
 
 public class User {
-    String salimHebib;
-    String ID30439NJ;
-    String January8_1984;
+    String stName;
+    String stID;
+    String stDOB;
 
     public User(){}
     public User(String stName, String stID){
-        this.salimHebib = stName;
-        this.ID30439NJ = stID;
+        this.stName = stName;
+        this.stID = stID;
     }
     public User(String stName, String stID, String stDOB){
-        this.salimHebib = stName;
-        this.ID30439NJ = stID;
-        this.January8_1984 = stDOB;
+        this.stName = stName;
+        this.stID = stID;
+        this.stDOB = stDOB;
 
     }
     public String getStName() {
-        return salimHebib;
+        return stName;
     }
 
     public void setStName(String stName) {
-        this.salimHebib = stName;
+        this.stName = stName;
     }
 
+
     public String getStID() {
-        return ID30439NJ;
+        return stID;
     }
 
     public void setStID(String stID) {
-        this.ID30439NJ = stID;
+        this.stID = stID;
     }
 
     public String getStDOB() {
-        return January8_1984;
+        return stDOB;
     }
 
     public void setStDOB(String stDOB) {
-        this.January8_1984 = stDOB;
+        this.stDOB = stDOB;
     }
 }

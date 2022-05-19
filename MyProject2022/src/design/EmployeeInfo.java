@@ -53,7 +53,7 @@ public class EmployeeInfo {
     }
 
     /*
-     * This methods should calculate Employee Pension based on salary and numbers of years with the company.
+     * This methods should calculate Employee Pension based on salary and Numbers of years with the company.
      * Then it will return the total pension. So you need to implement the logic.
      * Hints: pension will be 5% of the salary for 1 year, 10% for 2 years with the company and so on.
      *
@@ -68,7 +68,7 @@ public class EmployeeInfo {
         String convertedJoiningDate = DateConversion.convertDate(joiningDate);
         String convertedTodaysDate = DateConversion.convertDate(todaysDate);
 
-        //implement numbers of year from above two dates
+        //implement Numbers of year from above two dates
         //Calculate pension
 
 
