@@ -10,4 +10,8 @@ public class RecursiveFactorial {
         if (n<=1) return 1;
         return n * factorialFunction(n-1);
     }
+
+    public static int recursiveFactorial() {
+        return 0;
+    }
 }

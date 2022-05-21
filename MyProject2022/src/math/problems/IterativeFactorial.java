@@ -10,4 +10,8 @@ public class IterativeFactorial {
         System.out.println("\n Iterative java factorial result : " + factorialProduct);
 
     }
+
+    public static int iterativeFactorial() {
+        return 0;
+    }
 }

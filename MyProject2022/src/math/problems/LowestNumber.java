@@ -27,4 +27,8 @@ public class LowestNumber {
        System.out.println("lowestNumber  is :" + result);
 
     }
+
+    public static int lowestNumber() {
+        return 0;
+    }
 }

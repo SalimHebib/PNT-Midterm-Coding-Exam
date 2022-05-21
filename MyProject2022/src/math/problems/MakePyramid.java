@@ -22,4 +22,8 @@ public class MakePyramid {
             System.out.println();
         }
     }
+
+    public static char pyramid() {
+        return 0;
+    }
 }

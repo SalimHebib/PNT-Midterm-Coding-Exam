@@ -27,11 +27,6 @@ public class PrimeNumber {
         return num;
 
     }
+
+
 }
-
-      // String str = String.valueOf(num);
-       //ConnectToSqlDB connect = new ConnectToSqlDB();
-       //connect.insertDataFromStringToSqlTable(str, "prime", "prime-numbers");
-
-
-//}
